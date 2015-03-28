@@ -1,5 +1,5 @@
 # ArchPhone
-A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones
+A project what aims to get GNOME Shell, Arch Linux and Wayland working on Android tablets/phones natively (no chroot)
 
 # Why? There is Ubuntu Touch already!
 Actually, Ubuntu Touch gave me an idea for this.
@@ -29,3 +29,9 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 - Binary wifi/BT/camera drivers
 - systemd wants pretty new kernel (I don't remember from head, but 3.4.x is too old) (I can set pacman to hold systemd package)
 - Freedreno driver, which maybe doesn't work with Nexus 5 GPU (not sure)
+
+
+## Useful things:
+- Nexus 5 3.10 kernel: http://goo.gl/uHhDzb
+- Nexus 4 Fedora: https://github.com/freedreno/nexus4-fedora
+- Android boot: http://elinux.org/Android_Booting
