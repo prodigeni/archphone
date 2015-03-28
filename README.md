@@ -27,6 +27,7 @@ I would like to run normal desktop apps with my phone, but that seems impossible
 
 ## Things that could stop or slow down this project:
 - Binary wifi/BT/camera drivers
+- Audio (audio didn't work on Ubuntu, so it's very unlikely I get it working)
 - systemd wants pretty new kernel (I don't remember from head, but 3.4.x is too old) (I can set pacman to hold systemd package)
 - Freedreno driver, which maybe doesn't work with Nexus 5 GPU (not sure)
 
